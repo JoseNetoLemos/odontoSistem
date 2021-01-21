@@ -273,6 +273,8 @@ md = {
     }
   },
 
+
+
   showNotification: function(from, align) {
     type = ['', 'info', 'danger', 'success', 'warning', 'primary'];
 
@@ -280,8 +282,8 @@ md = {
 
     $.notify({
       icon: "add_alert",
-      message: "Welcome to <b>Material Dashboard</b> - a beautiful freebie for every web developer."
-
+      message: "<button><a href = 'file:///C:/Users/JoseV/OneDrive/%C3%81rea%20de%20Trabalho/OdontoSistem/examples/user.html'>Para continuar <b>aperte o botão</b> e veja os pacientes cadastrados para consultas.</a></button>"
+      
     }, {
       type: type[color],
       timer: 3000,
@@ -291,6 +293,103 @@ md = {
       }
     });
   },
+
+  showNotification1: function(from, align) {
+    type = ['', 'info', 'danger', 'success', 'warning', 'primary'];
+
+    color = Math.floor((Math.random() * 5) + 1);
+
+    $.notify({
+      icon: "add_alert",
+      message: "<button><a href = 'file:///C:/Users/JoseV/OneDrive/%C3%81rea%20de%20Trabalho/OdontoSistem/examples/user.html'>Para continuar <b>aperte o botão</b> e veja os pacientes cadastrados para consultas.</a></button>"
+      
+    }, {
+      type: type[color],
+      timer: 3000,
+      placement: {
+        from: from,
+        align: align
+      }
+    });
+  },
+
+  showNotification2: function(from, align) {
+    type = ['', 'info', 'danger', 'success', 'warning', 'primary'];
+
+    color = Math.floor((Math.random() * 5) + 1);
+
+    $.notify({
+      icon: "add_alert",
+      message: "<button><a href = 'file:///C:/Users/JoseV/OneDrive/%C3%81rea%20de%20Trabalho/OdontoSistem/examples/user.html'>Para continuar <b>aperte o botão</b> e veja os pacientes cadastrados para consultas.</a></button>"
+      
+    }, {
+      type: type[color],
+      timer: 3000,
+      placement: {
+        from: from,
+        align: align
+      }
+    });
+  },
+
+  showNotification3: function(from, align) {
+    type = ['', 'info', 'danger', 'success', 'warning', 'primary'];
+
+    color = Math.floor((Math.random() * 5) + 1);
+
+    $.notify({
+      icon: "add_alert",
+      message: "<button><a href = 'file:///C:/Users/JoseV/OneDrive/%C3%81rea%20de%20Trabalho/OdontoSistem/examples/user.html'>Para continuar <b>aperte o botão</b> e veja os pacientes cadastrados para consultas.</a></button>"
+      
+    }, {
+      type: type[color],
+      timer: 3000,
+      placement: {
+        from: from,
+        align: align
+      }
+    });
+  },
+
+  showNotification4: function(from, align) {
+    type = ['', 'info', 'danger', 'success', 'warning', 'primary'];
+
+    color = Math.floor((Math.random() * 5) + 1);
+
+    $.notify({
+      icon: "add_alert",
+      message: "<button><a href = 'file:///C:/Users/JoseV/OneDrive/%C3%81rea%20de%20Trabalho/OdontoSistem/examples/user.html'>Para continuar <b>aperte o botão</b> e veja os pacientes cadastrados para consultas.</a></button>"
+      
+    }, {
+      type: type[color],
+      timer: 3000,
+      placement: {
+        from: from,
+        align: align
+      }
+    });
+  },
+
+  showNotification5: function(from, align) {
+    type = ['', 'info', 'danger', 'success', 'warning', 'primary'];
+
+    color = Math.floor((Math.random() * 5) + 1);
+
+    $.notify({
+      icon: "add_alert",
+      message: "<button><a href = 'file:///C:/Users/JoseV/OneDrive/%C3%81rea%20de%20Trabalho/OdontoSistem/examples/user.html'>Para continuar <b>aperte o botão</b> e veja os pacientes cadastrados para consultas.</a></button>"
+      
+    }, {
+      type: type[color],
+      timer: 3000,
+      placement: {
+        from: from,
+        align: align
+      }
+    });
+  },
+
+
 
   checkScrollForTransparentNavbar: debounce(function() {
     if ($(document).scrollTop() > 260) {

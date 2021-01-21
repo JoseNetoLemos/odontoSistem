@@ -14093,7 +14093,7 @@ fieldset[disabled] .form-group .form-control {
 
 .alert.alert-primary a,
 .alert.alert-primary .alert-link {
-  color: #ffffff;
+  color: #000000;
 }
 
 .alert.alert-success {
@@ -14103,7 +14103,7 @@ fieldset[disabled] .form-group .form-control {
 
 .alert.alert-success a,
 .alert.alert-success .alert-link {
-  color: #ffffff;
+  color: #000000;
 }
 
 .alert.alert-info {
@@ -14113,7 +14113,7 @@ fieldset[disabled] .form-group .form-control {
 
 .alert.alert-info a,
 .alert.alert-info .alert-link {
-  color: #ffffff;
+  color: #000000;
 }
 
 .alert.alert-warning {
@@ -14123,7 +14123,7 @@ fieldset[disabled] .form-group .form-control {
 
 .alert.alert-warning a,
 .alert.alert-warning .alert-link {
-  color: #ffffff;
+  color: #000000;
 }
 
 .alert.alert-danger {
@@ -14133,7 +14133,7 @@ fieldset[disabled] .form-group .form-control {
 
 .alert.alert-danger a,
 .alert.alert-danger .alert-link {
-  color: #ffffff;
+  color: #000000;
 }
 
 .alert.alert-rose {
@@ -14143,7 +14143,7 @@ fieldset[disabled] .form-group .form-control {
 
 .alert.alert-rose a,
 .alert.alert-rose .alert-link {
-  color: #ffffff;
+  color: #000000;
 }
 
 .alert-info,
